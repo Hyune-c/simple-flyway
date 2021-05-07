@@ -24,4 +24,7 @@ public class Product {
 
 	@Column(name = "product_price")
 	private Long address;
+
+	@Column(name = "product_description")
+	private String description;
 }
